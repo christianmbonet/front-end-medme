@@ -2,12 +2,14 @@ import React from "react"
 
 const SignUp = () => {
     return (
-        <div>
-            <h1>
-                <div className='signup'>Sign Up</div>
-                <div className='signin'>Sign In</div>
-            </h1>
+        <div className="fullview">
             <form className='formcontainer'>
+                <div className="signupcontainer">
+                    <h1>
+                        <div className='signup'>Sign Up</div>
+                        <div className='signin'>Sign In</div>
+                    </h1>
+                </div>
                 <div className='datacontainer'>
                     <h2>
                     Name
