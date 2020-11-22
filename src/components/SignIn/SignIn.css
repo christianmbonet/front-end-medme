@@ -3,6 +3,7 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: space-around;
+    font-size: 20px;
   }
   
   h2 {
@@ -17,42 +18,40 @@ h1 {
     margin-top: 25px;
   }
   
-  .signin {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding-top: 24px;
-    font-size: 18px;
-    color: grey;
-  }
-  
-  .signupblue {
+  .signinblue {
     display: flex;
     justify-content: center;
     align-content: center;
     padding-top: 20px;
-    padding-bottom: 7px;
+    padding-bottom: 15px;
     font-size: 24px;
     color: #537EDC;
   }
   
-  .formcontainer {
+  .signup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: grey;
+  }
+  
+  .signincontainer {
     background: #EFF8FF;
-    padding: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     border-radius: 15px;
     width: 250px; 
     height: 575px;
-    padding-bottom: 70px;
-    padding-top: 25px;
   }
   
-  .datacontainer {
+  .dataformcontainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     border-radius: 5px;
     color: #253965;
   }

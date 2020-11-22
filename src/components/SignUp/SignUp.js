@@ -1,13 +1,14 @@
 import React from "react"
+import './SignUp.css';
 
 const SignUp = () => {
     return (
         <div className="fullview">
             <form className='formcontainer'>
-                <div className="signupcontainer">
+                <div className="menucontainer">
                     <h1>
-                        <div className='signup'>Sign Up</div>
                         <div className='signin'>Sign In</div>
+                        <div className='signupblue'>Sign Up</div>
                     </h1>
                 </div>
                 <div className='datacontainer'>
