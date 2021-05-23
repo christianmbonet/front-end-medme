@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import SignUp from "./components/SignUp/SignUp"
 import SignIn from "./components/SignIn/SignIn"
 import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom"
+import Navigation from './components/Nav/Navigation'
+import './App.css'
+import navbar from './components/Nav/Navigation'
 
 function App() {
   return (
@@ -10,7 +13,8 @@ function App() {
           <Router>
             <Switch>
               <Route exact path="/signup" component={SignUp}/>
-              <Route exact path="/signin" component={SignIn}/>
+              <Route exact path="/" component={SignIn}/>
+              <Route exact path="/navbar" component={Navigation}/>
             </Switch>
           </Router>
         </h1>

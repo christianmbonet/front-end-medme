@@ -1,5 +1,6 @@
 import React from "react"
 import './SignUp.css';
+import {Link} from "react-router-dom"
 
 const SignUp = () => {
     return (
@@ -7,7 +8,7 @@ const SignUp = () => {
             <form className='formcontainer'>
                 <div className="menucontainer">
                     <h1>
-                        <div className='signin'>Sign In</div>
+                        <Link to="/" className='signin'>Sign In</Link>
                         <div className='signupblue'>Sign Up</div>
                     </h1>
                 </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import './SignIn.css';
+import {Link} from "react-router-dom"
 
 const SignIn = () => {
     return (
@@ -9,7 +10,7 @@ const SignIn = () => {
                     <h1>
                         <div className='signinblue'>Sign In</div>
                         <div className='signupbuttoncontainer'>
-                            <div className='signup'>Sign Up</div>
+                            <Link to="/signup" className='signup'>Sign Up</Link>
                         </div>
                     </h1>
                 </div>
